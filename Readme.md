@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Артур Кочарян](https://up.htmlacademy.ru/htmlcss/32/user/1167685).
-* Наставник: `Неизвестно`.
+* Наставник: [Юлия Савдеева](https://htmlacademy.ru/profile/juliettasa).
 
 ---
 
