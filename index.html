@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Седона</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
 					<a class="navigation-link" href="catalog.html">Гостиницы</a>
 				</li>
 			</ul>
-			<img class="logo" src="/images/index/logo.png" width="138" height="70" alt="Логотип города Седона">
+			<img class="logo" src="assets/index/logo.png" width="138" height="70" alt="Логотип города Седона">
 			<ul class="navigation-list navigation-user">
 				<li class="navigation-item">
 					<a class="navigation-link" href="#">
@@ -33,25 +34,23 @@
 					</a>
 				</li>
 				<li class="navigation-item">
-					<a class="navigation-link" href="#">
-						<span class="visually-hidden">Хочу сюда!</span>
-					</a>
+					<a class="navigation-link" href="#">Хочу сюда!</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 	<main class="main-index">
-		<h1 class="visually-hidden">Городок Седона</h1>
-    <img src="images/index/background.jpg" width="1200" height="485" alt="Welcome to the gorgeous Sedona">
+    <h1 class="visually-hidden">Городок Седона</h1>
 		<section class="reasons">
 			<h2>Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
-			<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+			<p class="five-reasons">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 			<ul class="reasons-list">
-				<li class="reasons-item">
-					<h3 class="reasons-title">Настоящий<br> городок</h3>
-          <img src="images/index/sedona.jpg" width="800" height="384" alt="Город Седона">
-					<p class="reasons-number">— №1 —</p>
-					<p class="reasons-description">Седона — не аттракцион для туристов, там течёт<br> своя жизнь</p>
+				<li class="reasons-item-city">
+					<h3 class="reasons-title-city">Настоящий<br> городок</h3>
+					<p class="reasons-number-city">— №1 —</p>
+					<p class="reasons-description-city">Седона — не аттракцион для туристов, там течёт<br> своя жизнь</p>
+        </li>
+        <img src="assets/index/sedona.jpg" width="800" height="384" alt="Город Седона">
 					<ul class="reasons-list reasons-about">
 						<li class="reasons-about-item">
 							<h3 class="reasons-about-title">Жильё</h3>
@@ -69,13 +68,12 @@
 							</p>
 						</li>
 					</ul>
+				<li class="reasons-item-bridge">
+					<h3 class="reasons-title-bridge">Там есть<br> мост дьявола</h3>
+					<p class="reasons-number-bridge">— №2 —</p>
+					<p class="reasons-description-bridge">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
 				</li>
-				<li class="reasons-item">
-					<h3 class="reasons-title">Там есть<br> мост дьявола</h3>
-					<p class="reasons-number">— №2 —</p>
-					<p class="reasons-description">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
-          <img src="images/index/bridge.jpg" width="800" height="384" alt="Мост дьявола">
-				</li>
+        <img src="assets/index/bridge.jpg" width="800" height="384" alt="Мост дьявола">
 				<li class="reasons-item">
 					<h3 class="reasons-title">Небольшая<br> площадь</h3>
 					<p class="reasons-number">— №3 —</p>
@@ -97,11 +95,10 @@
 			<h2 class="searching-hotels-title">Заинтересовались?</h2>
 			<p class="searching-hotels-description">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие
 				предложения гостиниц в Седоне</p>
-			<a class="button" href="#">Поиск гостиницы в Седоне</a>
+			<button class="button-search" type="submit">Поиск гостиницы в Седоне</button>
 		</section>
 		<section class="contact-us">
 			<h2 class="contact-us-title">Подпишитесь на рассылку</h2>
-      <img src="images/index/background-footer.jpg" width="1200" height="411" alt="Задний фон">
 			<p class="contact-us-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
 			<form class="contact-us-form" action="https://echo.htmlacademy.ru/" method="post">
 				<input type="text" name="contact-us-text" placeholder="Ваш e-mail">
@@ -134,7 +131,7 @@
 				</li>
 			</ul>
 			<a class="htmlacademy-link" href="https://htmlacademy.ru/">
-				<img src="/images/icons/htmlacademy.svg" width="115" height="33" alt="Логотип академии">
+        <img src="assets/icons/htmlacademy.svg" width="115" height="33" alt="Логотип академии">
 			</a>
 		</div>
 	</footer>
