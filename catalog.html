@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Седона</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
           <a class="navigation-link" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
-      <img class="logo" src="assets/index/logo.png" width="138" height="70" alt="Логотип города Седона">
+      <img class="logo" src="assets/images/catalog/logo.png" width="138" height="70" alt="Логотип города Седона">
       <ul class="navigation-list navigation-user">
         <li class="navigation-item">
           <a class="navigation-link" href="#">
@@ -106,7 +107,7 @@
           </ul>
         </fieldset>
         <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">Стоимость, Р:</legend>
+          <legend class="catalog-filter-title">Стоимость, ₽:</legend>
           <button class="range-toggle toggle-min" type="button">
             <span class="visually-hidden">Изменить минимальную цену.</span>
           </button>
@@ -119,6 +120,7 @@
         <button class="button" type="submit">Сбросить</button>
       </form>
       <form class="sorting-type">
+        <p class="results">Найдено гостиниц: 38</p>
         <label class="visually-hidden">Сортировка</label>
         <select class="select-control" id="sorting" name="sorting">
           <option value="cheap">Сначала дешевые</option>
@@ -136,51 +138,51 @@
       <section class="found-hotels">
         <ul class="found-hotels-list">
           <li class="found-hotels-item">
-            <img class="found-hotels-image" src="assets/catalog/amara.jpg" width="180" height="120" alt="Гостиница среди каньона">
+            <img class="found-hotels-image" src="assets/images/catalog/amara.jpg" width="180" height="120" alt="Гостиница среди каньона">
             <a class="found-hotels-link" href="#">
               <h3 class="found-hotels-title">Amara Resort & Spa</h3>
             </a>
             <p>Гостиница</p>
-            <a class="found-hotels-button" href="#">Подробнее</a>
+            <button class="found-hotels-button" type="submit">Подробнее</button>
             <p>От 4000 ₽</p>
-            <a class="found-hotels-button" href="#">В избранное</a>
+            <button class="found-hotels-favbutton" type="submit">В избранное</button>
             <p class="rate">Рейтинг: 8,5</p>
           </li>
           <li class="found-hotels-item">
-            <img class="found-hotels-image" src="assets/catalog/desert.jpg" width="180" height="120" alt="Мотель на фоне каньона">
+            <img class="found-hotels-image" src="assets/images/catalog/desert.jpg" width="180" height="120" alt="Мотель на фоне каньона">
             <a class="found-hotels-link" href="#">
               <h3 class="found-hotels-title">Desert Quail Inn</h3>
             </a>
             <p>Мотель</p>
-            <a class="found-hotels-button" href="#">Подробнее</a>
+            <button class="found-hotels-button" type="submit">Подробнее</button>
             <p>От 3000 ₽</p>
-            <a class="found-hotels-button" href="#">В избранное</a>
+            <button class="found-hotels-favbutton" type="submit">В избранное</button>
             <p class="rate">Рейтинг: 8,9</p>
           </li>
           <li class="found-hotels-item">
-            <img class="found-hotels-image" src="assets/catalog/villas.jpg" width="180" height="120" alt="Каньон среди деревьев">
+            <img class="found-hotels-image" src="assets/images/catalog/villas.jpg" width="180" height="120" alt="Каньон среди деревьев">
             <a class="found-hotels-link" href="#">
               <h3 class="found-hotels-title">Villas at Poco Diablo</h3>
             </a>
             <p>Апартаменты</p>
-            <a class="found-hotels-button" href="#">Подробнее</a>
+            <button class="found-hotels-button" type="submit">Подробнее</button>
             <p>От 2000 ₽</p>
-            <a class="found-hotels-button" href="#">В избранном</a>
+            <button class="found-hotels-infavbutton" type="submit">В избранном</button>
             <p class="rate">Рейтинг: 9,2</p>
           </li>
           <li class="found-hotels-item">
-            <img class="found-hotels-image" src="assets/catalog/greentree.jpg" width="180" height="120" alt="Горная дорога среди зеленых деревьев">
+            <img class="found-hotels-image" src="assets/images/catalog/greentree.jpg" width="180" height="120" alt="Горная дорога среди зеленых деревьев">
             <a class="found-hotels-link" href="#">
               <h3 class="found-hotels-title">GreenTree Inn</h3>
             </a>
             <p>Гостиница</p>
-            <a class="found-hotels-button" href="#">Подробнее</a>
+            <button class="found-hotels-button" type="submit">Подробнее</button>
             <p>От 3000 ₽</p>
-            <a class="found-hotels-button" href="#">В избранное</a>
+            <button class="found-hotels-favbutton" type="submit">В избранное</button>
             <p class="rate">Рейтинг: 9,2</p>
           </li>
         </ul>
-        <a class="button" href="#">Загрузить еще</a>
+        <button class="button-load" type="submit">Загрузить еще</button>
         <ul class="pagination">
           <li class="pagination-item">
             <a class="pagination-link pagination-current">1</a>
@@ -241,7 +243,7 @@
         </li>
       </ul>
       <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-        <img src="assets/icons/htmlacademy.svg" width="115" height="33" alt="Логотип академии">
+        <img src="assets/images/icons/htmlacademy.svg" width="115" height="33" alt="Логотип академии">
       </a>
     </div>
   </footer>
