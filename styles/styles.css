@@ -22,12 +22,12 @@ body {
   background-color: #ffffff;
 }
 
-.page-header {
-  color: #000000;
+ul {
+  list-style: none;
 }
 
-.navigation-list {
-  list-style: none;
+.page-header {
+  color: #000000;
 }
 
 .navigation-link {
@@ -36,41 +36,6 @@ body {
   font-size: 20px;
   line-height: 26px;
   text-decoration: none;
-}
-
-.navigation-user li:nth-child(3) {
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: #756257;
-  border-radius: 4px;
-  width: 160px;
-  height: 37px;
-  padding-top: 14px;
-}
-
-.reasons h2 {
-  color: #000000;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.five-reasons {
-  color: #333333;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 36px;
-  text-align: center;
-}
-
-.reasons-list {
-  list-style: none;
 }
 
 .reasons-item:nth-child(1),
@@ -88,7 +53,6 @@ body {
 }
 
 .reasons-about {
-  list-style: none;
   background-color: #ffffff;
 }
 
@@ -110,53 +74,22 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.reasons-title {
+.reasons-text {
   color: #000000;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 30px;
+  line-height: 36px;
   text-align: center;
   text-transform: uppercase;
 }
 
-.reasons-title-city {
+.reasons-title {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  color: #ffffff;
   text-align: center;
   text-transform: uppercase;
-}
-
-.reasons-number-city {
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.reasons-description-city {
-  text-align: center;
-  color: #ffffff;
-}
-
-.reasons-title-bridge {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  color: #ffffff;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.reasons-number-bridge {
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.reasons-description-bridge {
-  text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 
 .reasons-number {
@@ -168,7 +101,27 @@ body {
   text-align: center;
 }
 
-.searching-hotels h2 {
+.reasons-title-white {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.reasons-number-white {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.reasons-description-white {
+  text-align: center;
+  color: #ffffff;
+}
+
+.searching-hotels-title {
   color: #000000;
   font-weight: bold;
   font-size: 30px;
@@ -177,25 +130,11 @@ body {
   text-transform: uppercase;
 }
 
-.searching-hotels p {
+.searching-hotels-description {
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-}
-
-.searching-hotels button {
-  color: #ffffff;
-  background-color: #756257;
-  border-radius: 10px;
-  width: 575px;
-  height: 60px;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 36px;
 }
 
 .contact-us {
@@ -204,7 +143,7 @@ body {
   background-size: 100% auto;
 }
 
-.contact-us h2 {
+.contact-us-title {
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
@@ -213,7 +152,7 @@ body {
   color: #ffffff;
 }
 
-.contact-us p {
+.contact-us-description {
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
@@ -221,7 +160,7 @@ body {
   color: #ffffff;
 }
 
-.contact-us input {
+.holder {
   background-color: #f2f2f2;
   border-radius: 10px 0 0 10px;
   width: 600px;
@@ -233,20 +172,7 @@ body {
   opacity: 0.6;
 }
 
-.contact-us button {
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 26px;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: #83b3d3;
-  border-radius: 0 10px 10px 0;
-  width: 200px;
-  height: 60px;
-}
-
-.footer-contacts a {
+.footer-contacts-phone {
   font-weight: normal;
   font-size: 40px;
   line-height: 40px;
@@ -256,11 +182,7 @@ body {
   color: #000000;
 }
 
-.footer-social-list {
-  list-style: none;
-}
-
-.welcome {
+.main-welcome {
   background-image: url("../assets/images/home/background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -316,20 +238,7 @@ body {
   color: #ffffff 0.3;
 }
 
-.button-filter {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-  color: #ffffff;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: #83b3d3;
-  border-radius: 4px;
-  width: 160px;
-  height: 48px;
-}
-
-.results {
+.text {
   font-weight: bold;
   font-size: 30px;
   line-height: 39px;
@@ -352,7 +261,7 @@ body {
   text-decoration: none;
 }
 
-.found-hotels-item p {
+.txt {
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
@@ -369,51 +278,71 @@ body {
   height: 37px;
 }
 
-.found-hotels-button {
+/* buttons */
+
+.button {
+  display: inline-block;
+  width: 160px;
+  height: 37px;
+  font-weight: bold;
   font-size: 16px;
   line-height: 21px;
   text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
+  border-radius: 4px;
+}
+
+.button-brown {
   background-color: #756257;
-  border-radius: 4px;
-  width: 151px;
-  height: 37px;
 }
 
-.found-hotels-favbutton {
-  font-size: 16px;
-  line-height: 21px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
+.button-blue {
   background-color: #83b3d3;
-  border-radius: 4px;
-  width: 151px;
-  height: 37px;
 }
 
-.found-hotels-infavbutton {
-  font-size: 16px;
-  line-height: 21px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
+.button-green {
   background-color: #7db54f;
-  border-radius: 4px;
-  width: 151px;
-  height: 37px;
 }
 
 .button-load {
-  font-weight: bold;
   font-size: 20px;
   line-height: 26px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #83b3d3;
-  border-radius: 4px;
   width: 625px;
   height: 55px;
+}
+
+.button-apply {
+  height: 48px;
+}
+
+.button-drop {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.button-contact-us {
+  font-size: 20px;
+  line-height: 26px;
+  width: 200px;
+  height: 60px;
+  border-radius: 0 10px 10px 0;
+}
+
+.button-search {
+  border-radius: 10px;
+  width: 575px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-link {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
 }
